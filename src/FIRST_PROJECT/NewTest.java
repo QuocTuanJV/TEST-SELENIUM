@@ -26,12 +26,14 @@ public class NewTest {
   @BeforeClass
   public void beforeClass() {
 	  
+	  
+	  // TEST HOME 03/03/2019
 	  //Firefox
-//	  driver = new FirefoxDriver();
+	  driver = new FirefoxDriver();
 	  
 	  //Chrome 
-	  System.setProperty("webdriver.chrome.driver",".\\lib\\chromedriver.exe");
-	  driver = new ChromeDriver();
+//	  System.setProperty("webdriver.chrome.driver",".\\lib\\chromedriver.exe");
+//	  driver = new ChromeDriver();
 	  
 	  driver.get("https://www.google.com/");
 	  driver.manage().window().maximize();
